@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Model weights & runs (quá nặng cho GitHub)
+runs/
+*.pt
+*.pth
+
+# Video & data output
+*.mp4
+*.avi
+data/*.mp4
+data/*.csv
+data/*.json
+
+# Dataset (download riêng theo README)
+roboflow_dataset/
+*.zip
+
+# Output tracking
+output_*.mp4
+tracking_*.csv
+tracking_*.json
+metrics_comparison.csv
+
+# Colab / Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
